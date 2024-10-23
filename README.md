@@ -21,6 +21,5 @@ The home_sales temp table is cached to memory to optimize performance. Cached da
 Parquet Data Operations:
 DataFrame is partitioned by the date_built field and writes it in Parquet format then reads the Parquet data back into a DataFrame (p_df_sales)
 A temp table is created from the Parquet data and ran the query (average price per view rating). Runtime is measured and compared to previous queries.
-Finally, home_sales is uncached and is verified no longer cached.
 
-F
+Finally, home_sales is uncached and is verified no longer cached.
