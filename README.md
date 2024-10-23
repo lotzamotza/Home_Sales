@@ -1,6 +1,6 @@
 # Home_Sales
 
-This script sets up a PySpark environment in Google Colab, read data from an AWS S3 bucket, and perform SQL based operations using SparkSQL.
+This script sets up a PySpark environment in Google Colab, reads data from an AWS S3 bucket, and performs SQL based operations using SparkSQL.
 
 Environment Setup:
 Java 8 and Apache Spark, findspark are installed to integrate PySpark with Google Colab. Sets environment variables for Java and Spark and initializes findspark to set up the Spark environment. Finally, the Spark session is created and the Google Drive is mounted.
